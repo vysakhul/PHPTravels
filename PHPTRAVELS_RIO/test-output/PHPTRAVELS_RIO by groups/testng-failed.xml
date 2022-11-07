@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [PHPTRAVELS_RIO by groups]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="GRP-user(failed)">
+    <groups>
+      <run>
+        <include name="user"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="net.phptravels.scripts.TestCases">
+        <methods>
+          <include name="checkLinks_S01_REQ02_T1"/>
+          <include name="checkLinks_S01_REQ02_T2"/>
+          <include name="checkLinks_S01_REQ04_T1"/>
+          <include name="checkLinks_S01_REQ03_T1"/>
+          <include name="checkLinks_S01_REQ05_T1"/>
+          <include name="verifyUserAccess_S01_REQ01_T3"/>
+          <include name="verifyUserAccess_S01_REQ01_T2"/>
+          <include name="verifyUserAccess_S01_REQ01_T1"/>
+          <include name="checkLinks_S01_REQ02_T3"/>
+          <include name="verifyUserAccess_S01_REQ01_T5"/>
+          <include name="checkLinks_S01_REQ02_T4"/>
+        </methods>
+      </class> <!-- net.phptravels.scripts.TestCases -->
+    </classes>
+  </test> <!-- GRP-user(failed) -->
+</suite> <!-- Failed suite [PHPTRAVELS_RIO by groups] -->
